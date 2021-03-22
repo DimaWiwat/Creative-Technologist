@@ -1148,9 +1148,10 @@
 
     .recent-post {
        width: 100%;
-       padding-right: 5px;
-       padding-left: 5px;
-       margin-bottom: 400px;
+       height: 910px;
+       padding-right: 10px;
+       padding-left: 10px;
+       margin-bottom: 40px;
     }
 
     .resent-post-header {
@@ -1169,6 +1170,8 @@
        height: 400px;
        margin: 0 auto;
        margin-bottom: 20px;
+       margin-left: 0px;
+       margin-right: 0px;
     }
 
     .recent-post-right {
@@ -1176,6 +1179,8 @@
        height: 400px;
        margin: 0 auto;
        margin-bottom: 20px;
+       margin-left: 0px;
+       margin-right: 0px;
     }
 
     .recent-post-left-text {
