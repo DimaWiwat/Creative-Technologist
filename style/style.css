@@ -1374,6 +1374,7 @@
 
     .modal-block {
        width: 70%;
+       height: 50%;
     }
  }
 
@@ -1576,6 +1577,7 @@
 
     .modal-block {
        width: 80%;
+       height: 50%;
     }
  }
 
@@ -1935,6 +1937,8 @@
     }
 
     .modal-block {
-       width: 90%;
+       width: 95%;
+       height: 50%;
+
     }
  }
