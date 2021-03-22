@@ -89,11 +89,12 @@
  }
 
  .recent-post {
-    max-width: 1152px;
+    width: 100%;
+    height: 480px;
     padding-top: 20px;
     padding-bottom: 30px;
-    padding-right: 148px;
-    padding-left: 148px;
+    padding-right: 48px;
+    padding-left: 48px;
     background: #EDF7FA;
  }
 
@@ -121,19 +122,23 @@
  .recent-post-block {
     display: flex;
     justify-content: space-between;
+    width: 100%;
  }
 
  .recent-post-left {
-    width: 418px;
-    height: 295px;
+    width: 100%;
+    height: 380px;
     padding: 30px;
     background: #FFFFFF;
     box-shadow: 0px 4px 10px rgba(187, 225, 250, 0.25);
     border-radius: 4px;
+    padding-right: 5px;
+    padding-left: 5px;
+    margin-right: 10px;
  }
 
  .recent-post-left-text {
-    width: 374px;
+    width: 100%;
     height: 85px;
     font-weight: bold;
     font-size: 26px;
@@ -148,8 +153,8 @@
  }
 
  .recent-post-item {
-    width: 410px;
-    height: 117px;
+    width: 100%;
+    height: 400px;
     margin-top: 15px;
     font-weight: normal;
     font-size: 16px;
@@ -158,12 +163,14 @@
  }
 
  .recent-post-right {
-    width: 418px;
-    height: 295px;
+    width: 100%;
+    height: 380px;
     padding: 30px;
     background: #FFFFFF;
     box-shadow: 0px 4px 10px rgba(187, 225, 250, 0.25);
     border-radius: 4px;
+    padding-right: 5px;
+    padding-left: 5px;
  }
 
  .featured-work {
@@ -396,6 +403,7 @@
  /* CONTACT */
 
  .contact-inf {
+    width: 900px;
     margin-top: 140px;
     margin-bottom: 30px;
     margin-left: 235px;
@@ -403,7 +411,7 @@
  }
 
  .contact-block {
-    width: 900px;
+    width: 100%;
     display: flex;
 
  }
@@ -640,9 +648,10 @@
  }
 
  .modal-block {
-    width: 300px;
-    margin: 80px auto;
-    height: 200px;
+    width: 30%;
+    height: 50%;
+    margin: 30vh auto;
+    position: relative;
     border: 1px solid grey;
     background-color: #fff;
     padding: 15px;
@@ -655,12 +664,6 @@
 
  .show {
     display: block;
- }
-
- .modal-block {
-    height: 25vh;
-    margin: 30vh auto;
-    position: relative;
  }
 
  .btn-close {
@@ -934,9 +937,11 @@
     }
 
     .contact-inf {
-       max-width: 768px;
-       margin-left: 25px;
-       margin-right: 25px;
+       width: 100%;
+       margin-right: 0px;
+       margin-left: 0px;
+       padding-left: 15px;
+       padding-right: 15px;
     }
 
     .contact-block {
@@ -983,7 +988,7 @@
     }
 
     .modal-block {
-       height: 50vh;
+       width: 40%;
     }
  }
 
@@ -1000,7 +1005,7 @@
        width: 15px;
        height: 15px;
        margin-top: 10px;
-       margin-left: 400px;
+       margin-left: 385px;
 
        position: relative;
     }
@@ -1360,7 +1365,7 @@
     }
 
     .nav-mobile-menu {
-       margin-left: 350px;
+       margin-left: 340px;
        padding-left: 5px;
        padding-right: 5px;
     }
@@ -1581,7 +1586,7 @@
 
     .nav-mobile-menu {
        width: 15px;
-       margin-left: 300px;
+       margin-left: 290px;
        top: 0px;
        z-index: 201;
     }
