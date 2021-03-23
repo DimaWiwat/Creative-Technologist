@@ -997,6 +997,7 @@
  @media(max-width:425px) {
     body {
        width: 425px;
+       margin: 0 auto;
     }
 
     header {
@@ -1381,6 +1382,7 @@
  @media(max-width:375px) {
     body {
        width: 375px;
+       margin: 0 auto;
     }
 
     main {
@@ -1584,14 +1586,15 @@
  @media(max-width:320px) {
     body {
        width: 320px;
+       margin: 0 auto;
     }
 
     .nav-menu {
-       width: 100%;
+       width: 320px;
     }
 
     .navigation {
-       width: 100%;
+       width: 320px;
     }
 
     .active-menu {
@@ -1937,7 +1940,7 @@
     }
 
     .modal-block {
-       width: 95%;
+       width: 90%;
        height: 50%;
 
     }
